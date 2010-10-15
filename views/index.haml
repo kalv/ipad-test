@@ -1,0 +1,11 @@
+!!!
+%head{:manifest=>"ipad.manifest"}
+  %title Ipad Testing
+  %script{:type=>"text/javascript", :src=>"javascripts/ipad.js"}
+  %link{:rel => "stylesheet", :href=>"stylesheets/style.css"}
+
+%body
+  %h1 Ipad testing
+
+  %textarea{:id=>"data", :style => "width:600px;height:400px;"}
+  %input{:type=>"button",:value=>"Save to db", :onclick => "saveToDb()"}
